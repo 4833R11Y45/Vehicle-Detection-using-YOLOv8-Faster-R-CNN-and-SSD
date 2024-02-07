@@ -1,4 +1,4 @@
-# Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
+![image](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/3815a88f-9362-49dd-a792-0746d0859538)# Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
 
 ![banner](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/10714320-60db-4cf1-9251-1116813a9220)
 
@@ -23,12 +23,16 @@ YOLO's real-time object detection capabilities have set it apart as a leading al
 - Continuous improvements with versions YOLOv3, v4, v5, and the latest YOLOv8.
 - Enhancements in accuracy through architectural adjustments, anchor boxes, and advanced training techniques.
 
+![image](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/4938ce37-fd8e-4d39-a89c-745c73791fae)
+
 ### SSD (Single Shot MultiBox Detector)
 SSD stands out for its real-time processing and balanced accuracy, making it a strong competitor against earlier versions of YOLO. It's particularly adept at handling objects of various sizes thanks to its multi-scale feature map approach.
 
 #### Features:
 - Single-stage detection model that combines feature maps from different layers.
 - Capable of detecting multiple object sizes efficiently.
+
+![image](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/92fe8789-a65d-4450-8fc5-6bcaba5e7778)
 
 ### Faster R-CNN (Region-based Convolutional Neural Network)
 Faster R-CNN takes a two-stage approach to object detection, prioritizing accuracy with a more complex computational process. It first generates region proposals through an RPN and then uses a Fast R-CNN network for precise detection.
@@ -37,6 +41,8 @@ Faster R-CNN takes a two-stage approach to object detection, prioritizing accura
 - Two-stage detection process with a Region Proposal Network (RPN).
 - Utilizes backbone networks like ResNet or MobileNet for feature extraction.
 - Known for its high precision in object detection tasks.
+
+![image](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/0cd96ea4-00bd-48c6-a0fc-7d90c9e62012)
 
 ## Implementation Details
 
