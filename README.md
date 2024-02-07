@@ -85,6 +85,8 @@ The models were trained and evaluated on two different datasets, providing insig
   - mAP50: 0.743
   - mAP50-95: 0.466
 
+![YOLOv8s](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/YOLOv8s.jpg)
+
 #### Faster R-CNN
 - **Trained on the first dataset:**
   - AP @ IoU=0.50:0.95: 0.754
