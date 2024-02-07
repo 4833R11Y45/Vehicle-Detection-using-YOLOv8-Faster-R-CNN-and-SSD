@@ -1,4 +1,4 @@
-![image](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/3815a88f-9362-49dd-a792-0746d0859538)# Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
+# Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
 
 ![banner](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/10714320-60db-4cf1-9251-1116813a9220)
 
