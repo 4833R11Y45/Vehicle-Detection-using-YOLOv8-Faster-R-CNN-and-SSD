@@ -53,15 +53,13 @@ This configuration ensured that each model was trained under the same conditions
 
 ## Repository Contents
 
-- `Faster_R-CNN/` - Implementation and results of the Faster R-CNN model.
-- `SSD/` - Implementation and results of the SSD model.
-- `YOLOv8/` - Implementation and results of the YOLOv8 model.
-- `datasets/` - Links to the datasets used for training and evaluation.
-- `results/` - Comparative results and analysis of the models.
+- `Detection Results/` - Object Detection visualizations by the models.
+- `Models/` - Weights of the trained models.
+- `Notebooks/` - Implementation of the models.
 
 ## Getting Started
 
-To get started with the models, follow the instructions in each model's respective directory. Ensure that you meet the prerequisites listed in the `requirements.txt` file to set up your environment.
+To get started with the models, follow the instructions in each notebook.
 
 ## Datasets
 
