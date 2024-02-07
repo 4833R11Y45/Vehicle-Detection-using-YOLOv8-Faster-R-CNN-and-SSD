@@ -1,6 +1,6 @@
 # Models Directory
 
-This directory contains the trained models for the object detection project, "Object Detection and Tracking Using UAVs." Each model was trained using two distinct datasets to compare performance across different object detection frameworks: YOLOv8s, Faster R-CNN, and SSD.
+This directory contains the trained models for the object detection project, "Vehicle Detection using YOLOv8, Faster R-CNN, and SSD" Each model was trained using two distinct datasets to compare performance across different object detection frameworks: YOLOv8s, Faster R-CNN, and SSD.
 
 ## YOLOv8s Models
 
@@ -18,7 +18,7 @@ The weights for the Faster R-CNN models are hosted on OneDrive due to their size
 
 ## SSD Models
 
-- `ssd_vehicle_v1.pth`: Weights of the SSD model trained on the first dataset. This model offers a balance between speed and accuracy, suitable for real-time applications.
+- `ssd_vehicle_v1.pth`: Weights of the SSD model trained on the first dataset. This model offers a trade-off balance between speed and accuracy, suitable for real-time applications with less computational resources.
 - `ssd_vehicle_v2.pth`: Weights of the SSD model trained on the second dataset. Demonstrates the model's adaptability and performance across different scales of object sizes.
 
 ## Usage
