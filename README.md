@@ -1,5 +1,7 @@
 # Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
 
+![banner](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/10714320-60db-4cf1-9251-1116813a9220)
+
 ## Introduction
 Object detection is a critical component in the field of computer vision, with applications spanning across traffic monitoring, autonomous driving, and security systems. The advent of deep learning has catalyzed significant advancements in this domain, enhancing both the accuracy and efficiency of detection methods.
 
