@@ -49,7 +49,8 @@ Faster R-CNN takes a two-stage approach to object detection, prioritizing accura
 All three models were implemented using the PyTorch framework. We utilized pretrained weights to enhance the initial accuracy and training efficiency:
 
 - YOLOv8s model with CSPDarkNet backbone.
-- Faster R-CNN and SSD models with MobileNet v3 Large 320 FPN backbone.
+- Faster R-CNN model with MobileNet v3 Large 320 FPN backbone.
+- SSD model with MobileNet v3 Large backbone.
 
 The models were trained using the following hyperparameters:
 
