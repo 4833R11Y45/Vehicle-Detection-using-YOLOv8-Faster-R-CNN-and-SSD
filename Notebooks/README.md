@@ -39,7 +39,7 @@ Alternatively, if you prefer to use Google Colab, you can access the pre-configu
 
  - [YOLOv8 on Google Colab](https://colab.research.google.com/drive/11bAILOUQKagZcTJysNX9nknklUqlysap?usp=sharing)
  - [Faster R-CNN on Google Colab](https://colab.research.google.com/drive/1qS5OZyJ5Pd6DMCr9iNYme6Bqf6Zy_Hah?usp=sharing)
- - [SSD](https://colab.research.google.com/drive/16HhWVAaelg9PlLIt2QWCyFoVrYIuJWdz?usp=sharing)
+ - [SSD on Google Colab](https://colab.research.google.com/drive/16HhWVAaelg9PlLIt2QWCyFoVrYIuJWdz?usp=sharing)
 
 To use these notebooks, simply click on the links and they will open in your browser. You can then run the notebooks directly in the Colab environment.
 
