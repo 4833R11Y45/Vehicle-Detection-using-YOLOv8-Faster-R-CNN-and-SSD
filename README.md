@@ -111,7 +111,7 @@ The models were trained and evaluated on three different datasets, providing ins
   - AP @ IoU=0.50: 0.23
   - AR @ IoU=0.50:0.95: 0.124
 
-![Faster C-NN](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/Faster%20R-CNN.png)
+![Faster C-NN](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/Faster_R-CNN.png)
 
 #### SSD
 - **Trained on the first dataset:**
