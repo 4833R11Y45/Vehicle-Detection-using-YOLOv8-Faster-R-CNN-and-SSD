@@ -6,6 +6,7 @@ This directory contains the trained models for the object detection project, "Ve
 
 - `yolov8s_best_v1.pt`: Weights of the YOLOv8s model trained on the first dataset. This model showcases high precision and real-time detection capabilities optimized for vehicle detection.
 - `yolov8s_best_v2.pt`: Weights of the YOLOv8s model trained on the second dataset. Adapted for more extensive and varied data, showcasing the scalability of the model.
+- `yolov8s_best_v2.pt`: Weights of the YOLOv8s model trained on the third dataset. Adapted for Pakistani traffic situation, also showing capabilities of detecting bikes and Rickshaws.
 
 ## Faster R-CNN Models
 
@@ -20,6 +21,7 @@ The weights for the Faster R-CNN models are hosted on OneDrive due to their size
 
 - `ssd_vehicle_v1.pth`: Weights of the SSD model trained on the first dataset. This model offers a trade-off balance between speed and accuracy, suitable for real-time applications with less computational resources.
 - `ssd_vehicle_v2.pth`: Weights of the SSD model trained on the second dataset. Demonstrates the model's adaptability and performance across different scales of object sizes.
+- `ssd_vehicle_full_final.pt`: Weights of the SSD model trained on the third dataset. Adapted for Pakistani traffic situation, also showing capabilities of detecting bikes and Rickshaws.
 
 ## Usage
 
