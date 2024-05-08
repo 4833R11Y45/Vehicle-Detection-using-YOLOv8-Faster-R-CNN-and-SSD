@@ -16,6 +16,7 @@ The weights for the Faster R-CNN models are hosted on OneDrive due to their size
 
 - `faster_rcnn_vehicle.pth`: Weights of the Faster R-CNN model trained on the first dataset. Known for its high accuracy due to the two-stage detection process.
 - `faster_rcnn_vehicle_ultimatum.pth`: Weights of the Faster R-CNN model trained on the second dataset. Provides insight into the model's performance on a more challenging and diverse dataset.
+- `faster_rcnn_vehicle_final_updated.pt`: Weights of the Faster R-CNN model trained on the third dataset. Adapted for Pakistani traffic situation, also showing capabilities of detecting bikes and Rickshaws.
 
 ## SSD Models
 
