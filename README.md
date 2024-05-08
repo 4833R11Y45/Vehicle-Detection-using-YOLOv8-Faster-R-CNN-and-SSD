@@ -11,7 +11,7 @@ This repository is dedicated to the comparison of three state-of-the-art object 
 - SSD (Single Shot Detector)
 - YOLO (You Only Look Once)
 
-Our goal is to evaluate the accuracy, and efficiency of these models to understand their strengths, limitations, and to benchmark their performance metrics.
+Our goal is to evaluate the accuracy, processing time and efficiency of these models to understand their strengths, limitations, and to benchmark their performance metrics.
 
 ## Models Overview
 
@@ -76,21 +76,24 @@ The datasets used for this study can be found at the following links:
 
 - [Vehicle Detection Dataset](https://universe.roboflow.com/cvproject-y6bf4/vehicle-detection-gr77r) - A dataset comprising various vehicle types, utilized for training object detection models.
 - [VISDRONE Dataset](https://universe.roboflow.com/dataset-conversion-ipkwb/visdrone-uhzsx) - A comprehensive dataset for visual drone detection, providing a diverse set of aerial images.
+- [Pak Vehicles Dataset](https://universe.roboflow.com/pak-vehicles/pak-vehicles/model/2) - A self-prepared dataset depicting the congested vehicle traffic situation in Pakistan from UAV view.
 
 ### Evaluation Results
-The models were trained and evaluated on two different datasets, providing insights into their performance across various metrics such as precision (P), recall (R), mean Average Precision (mAP) at different IoU thresholds, and Average Recall (AR).
+The models were trained and evaluated on three different datasets, providing insights into their performance across various metrics such as inference time, mean Average Precision (mAP) at different IoU thresholds, and Average Recall (AR).
 
 #### YOLOv8s
 - **Trained on the first dataset:**
-  - Precision: 0.974
   - Recall: 0.896
   - mAP50: 0.946
   - mAP50-95: 0.876
 - **Trained on the second dataset:**
-  - Precision: 0.819
   - Recall: 0.669
   - mAP50: 0.743
   - mAP50-95: 0.466
+- **Trained on the third dataset:**
+  - Recall: 0.699
+  - mAP50: 0.766
+  - mAP50-95:  0.336
 
 ![YOLOv8s](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/YOLOv8s.jpg)
 
@@ -98,13 +101,15 @@ The models were trained and evaluated on two different datasets, providing insig
 - **Trained on the first dataset:**
   - AP @ IoU=0.50:0.95: 0.754
   - AP @ IoU=0.50: 0.895
-  - AP @ IoU=0.75: 0.834
   - AR @ IoU=0.50:0.95: 0.800
 - **Trained on the second dataset:**
   - AP @ IoU=0.50:0.95: 0.053
   - AP @ IoU=0.50: 0.131
-  - AP @ IoU=0.75: 0.034
   - AR @ IoU=0.50:0.95: 0.090
+- **Trained on the third dataset:**
+  - AP @ IoU=0.50:0.95: 0.073
+  - AP @ IoU=0.50: 0.23
+  - AR @ IoU=0.50:0.95: 0.124
 
 ![Faster C-NN](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/Faster%20R-CNN.png)
 
@@ -112,13 +117,15 @@ The models were trained and evaluated on two different datasets, providing insig
 - **Trained on the first dataset:**
   - AP @ IoU=0.50:0.95: 0.531
   - AP @ IoU=0.50: 0.824
-  - AP @ IoU=0.75: 0.618
   - AR @ IoU=0.50:0.95: 0.674
 - **Trained on the second dataset:**
   - AP @ IoU=0.50:0.95: 0.025
   - AP @ IoU=0.50: 0.067
-  - AP @ IoU=0.75: 0.015
   - AR @ IoU=0.50:0.95: 0.120
+- **Trained on the third dataset:**
+  - AP @ IoU=0.50:0.95: 0.042
+  - AP @ IoU=0.50: 0.152
+  - AR @ IoU=0.50:0.95: 0.135
  
 ![SSD](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/blob/main/Detection%20Results/SSD.png)
 
@@ -149,7 +156,9 @@ If you utilize the datasets provided, please cite the following:
     month = { dec },
     note = { visited on 2024-02-07 },
 }
+```
 
+```bibtex
 @misc{ visdrone-uhzsx_dataset,
     title = { VISDRONE Dataset },
     type = { Open Source Dataset },
@@ -162,3 +171,18 @@ If you utilize the datasets provided, please cite the following:
     month = { aug },
     note = { visited on 2024-02-07 },
 }
+```
+```bibtex
+@misc{ pak-vehicles_dataset,
+    title = { Pak Vehicles Dataset },
+    type = { Open Source Dataset },
+    author = { Pak Vehicles },
+    howpublished = { \url{ https://universe.roboflow.com/pak-vehicles/pak-vehicles } },
+    url = { https://universe.roboflow.com/pak-vehicles/pak-vehicles },
+    journal = { Roboflow Universe },
+    publisher = { Roboflow },
+    year = { 2024 },
+    month = { may },
+    note = { visited on 2024-05-08 },
+}
+```
