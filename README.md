@@ -76,7 +76,7 @@ The datasets used for this study can be found at the following links:
 
 - [Vehicle Detection Dataset](https://universe.roboflow.com/cvproject-y6bf4/vehicle-detection-gr77r) - A dataset comprising various vehicle types, utilized for training object detection models.
 - [VISDRONE Dataset](https://universe.roboflow.com/dataset-conversion-ipkwb/visdrone-uhzsx) - A comprehensive dataset for visual drone detection, providing a diverse set of aerial images.
-- [Pak Vehicles Dataset](https://universe.roboflow.com/pak-vehicles/pak-vehicles/model/2) - A self-prepared dataset depicting the congested vehicle traffic situation in Pakistan from UAV view.
+- [Pak Vehicles Dataset](https://universe.roboflow.com/pak-vehicles/pak-vehicles) - A self-prepared dataset depicting the congested vehicle traffic situation in Pakistan from UAV view.
 
 ### Evaluation Results
 The models were trained and evaluated on three different datasets, providing insights into their performance across various metrics such as inference time, mean Average Precision (mAP) at different IoU thresholds, and Average Recall (AR).
