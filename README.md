@@ -1,6 +1,14 @@
 # Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD
 
 ![banner](https://github.com/4833R11Y45/Vehicle-Detection-using-YOLOv8-Faster-R-CNN-and-SSD/assets/92614228/10714320-60db-4cf1-9251-1116813a9220)
+## 📄 Paper
+
+This repository accompanies the paper **"Deep Learning Application for Vehicle Detection through Surveillance Drones"**, presented at ICECET 2024 and published by IEEE.
+
+**Read the paper:** [https://doi.org/10.1109/ICECET.2024.10698500](https://doi.org/10.1109/ICECET.2024.10698500)
+
+Ilyas A., Rahmani I., Imran S., Hashmi T.S.S., Yousaf M.N. (2024). Deep Learning Application for Vehicle Detection through Surveillance Drones. Proc. Int. Conf. Elect. Comp. Ene. Technol. (ICECET). DOI: 10.1109/ICECET.2024.10698500
+
 
 ## Introduction
 Object detection is a critical component in the field of computer vision, with applications spanning across traffic monitoring, autonomous driving, and security systems. The advent of deep learning has catalyzed significant advancements in this domain, enhancing both the accuracy and efficiency of detection methods.
